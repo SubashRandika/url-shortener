@@ -9,4 +9,8 @@ connectDB();
 
 app.use(express.json({ extended: true }));
 
+// routes definitions
+app.use("/", require("./routes/index"));
+app.use("/api/url", require("./routes/url"));
+
 app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
