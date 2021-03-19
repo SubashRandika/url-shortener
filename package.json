@@ -1,13 +1,13 @@
 {
   "name": "url-shortener",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple url shortener REST API",
   "main": "index.js",
   "scripts": {
     "start": "node index",
     "dev": "nodemon index"
   },
-  "keywords": [],
+  "keywords": [ "REST", "API", "Node JS", "Express", "Mongo DB" ],
   "author": "",
   "license": "ISC",
   "dependencies": {
